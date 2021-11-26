@@ -1,4 +1,4 @@
-package com.gaschecker;
+package com.nextc.gaschecker;
 
 import com.facebook.react.ReactActivity;
 
