@@ -1,7 +1,7 @@
 package com.nextc.gaschecker;
 
-import com.facebook.react.ReactActivity;
 import android.os.Bundle;
+import com.facebook.react.ReactActivity;
 
 public class MainActivity extends ReactActivity {
 
@@ -10,12 +10,12 @@ public class MainActivity extends ReactActivity {
    * rendering of the component.
    */
   @Override
-  protected String getMainComponentName() {
-    return "gasChecker";
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
   }
 
   @Override
-  protected void onCreate(Bundle savedInstanceState) {
-    super.onCreate(null);
+  protected String getMainComponentName() {
+    return "gasChecker";
   }
 }
