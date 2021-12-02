@@ -14,4 +14,5 @@ import Navigation from './navigation';
 const App: React.VFC = () => {
   return <Navigation />;
 };
+
 export default App;
