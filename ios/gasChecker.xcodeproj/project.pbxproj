@@ -497,7 +497,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextc.gasChecker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assetprojects.gasChecker;
 				PRODUCT_NAME = gasChecker;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -524,7 +524,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.nextc.gasChecker;
+				PRODUCT_BUNDLE_IDENTIFIER = com.assetprojects.gasChecker;
 				PRODUCT_NAME = gasChecker;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

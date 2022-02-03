@@ -1,4 +1,4 @@
-package com.nextc.gaschecker;
+package com.assetprojects.gaschecker;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
