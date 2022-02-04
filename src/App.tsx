@@ -8,10 +8,15 @@
  * @format
  */
 
-import React from 'react';
+import React, {useEffect} from 'react';
 import Navigation from './navigation';
+import {crashlyticsLog} from './libs/firebase/crashlytics/log';
 
 const App: React.VFC = () => {
+  useEffect(() => {
+    crashlyticsLog('App mounted.');
+  }, []);
+
   return <Navigation />;
 };
 
